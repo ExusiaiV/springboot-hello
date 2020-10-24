@@ -25,8 +25,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 // SpringBoot项目通过main函数启动,这是启动类. 其他类必须和启动类同级包及其子包, 放其他位置需要包扫描( @ComponentScan )
 @SpringBootApplication //声明这是一个springboot工程
 public class Application {
-
     public static void main(String[] args) {
+        System.out.println("git分支测试");
         SpringApplication.run(Application.class, args);
     }
 
