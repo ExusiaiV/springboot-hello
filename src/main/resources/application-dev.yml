@@ -1,0 +1,8 @@
+# 负责开发的配置文件
+spring:
+  jdbc:
+    datasource:
+      driverClassName: com.mysql.jdbc.Driver
+      url: jdbc:mysql:///springboot
+      username: root
+      password: root
